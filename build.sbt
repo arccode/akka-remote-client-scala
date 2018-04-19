@@ -39,7 +39,7 @@ lazy val akkaRemoteClientScala =
           "com.twitter" %% "chill-akka" % "0.9.2",
 
           // 内部包
-          "net.arccode" % "rest-api-protocol" % "0.0.1"
+          "net.arccode" % "rest-api-protocol" % "0.0.2"
         )
       }
     )

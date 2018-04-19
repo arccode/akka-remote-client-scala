@@ -2,7 +2,7 @@ package net.arccode.actor
 
 import akka.actor.{Actor, ActorLogging}
 import com.typesafe.config.ConfigFactory
-import net.arccode.protocol.scalaremote.LocationProtocol.{ExecuteSelectLocationsByParentCode, SelectLocationsByParentCodeMsg}
+import net.arccode.protocol.remote.LocationProtocol.{ExecuteSelectLocationsByParentCode, SelectLocationsByParentCodeMsg}
 import akka.pattern.ask
 import akka.util.Timeout
 
